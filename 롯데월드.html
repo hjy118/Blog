@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<title> Yeon's blog</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<h1> Welcome to Yeon's blog</h1>
+<style> h1{
+  font-size: 50px;
+  border: 5px solid lightblue;
+  padding:20px;
+  margin:10px;
+  display:block;
+  text-align: center;
+} </style>
+
+<style> li{
+  width:70%;
+  border-right:2px solid gray;
+  padding: 20px;
+  font-size: 25px;}
+  @media(max-width:1200px){
+    li{
+      border-right:none
+    }
+  }
+  #grid{
+      display:grid;
+      grid-template-columns: 300px 1fr;
+  }
+   </style>
+<style> p{
+  font-size: 20px;
+}
+</style>
+<div id="grid">
+  <li> Diary_2017
+    <br><br><select multiple="select" onchange="location.href=(this.value);">
+      <option value="부산가족여행.html"> 부산가족여행 </option>
+      <option value="롯데월드.html"> 롯데월드 </option>
+      <option value="2017_사설.html"> 사설 </option>
+    </select>
+  </li>
+  <div>
+    <p>~~~~~~</p>
+  </div>
+</div>
+</body>
+</html>
